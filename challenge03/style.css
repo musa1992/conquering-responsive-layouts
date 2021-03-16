@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
    
 }
 
@@ -29,25 +30,21 @@ a {
 
 .message h1{
     margin-bottom: 0.5rem;
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    
-    
+    font-size: 3rem; 
 }
 .message p {
     line-height: 1.5rem;
     margin-bottom: 2rem; 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;  
+    
+    
 }
 
 .btn {
     background-color: #38CFD9;
-    color: black;
+    color: #23424A;
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
     padding: 0.8em 2em;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
