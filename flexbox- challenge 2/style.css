@@ -89,3 +89,36 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    width: 60%;
+}
+.main-content h2 {
+    color: #136C72;
+}
+.main-content p {
+    font-size: 1rem;
+    color: #3A3A3A;
+}
+
+.side-content {
+    width: 35%;
+    background-color: #136C72;
+    text-align: center;
+    color: white;
+    padding: 0 1.5rem;
+}
+.side-content p {
+    font-size: 1rem;
+}
+
+.side-content div {
+    margin-bottom: 3rem;
+}
