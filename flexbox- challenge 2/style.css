@@ -91,14 +91,12 @@ h1 {
 }
 
 .content-section {
-    display: flex;
-    justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .main-content {
-    width: 60%;
+    width: 62%;
 }
 .main-content h2 {
     color: #136C72;
@@ -109,11 +107,11 @@ h1 {
 }
 
 .side-content {
-    width: 35%;
+    width: 32%;
     background-color: #136C72;
     text-align: center;
     color: white;
-    padding: 0 1.5rem;
+    padding: 1em 1.5em;
 }
 .side-content p {
     font-size: 1rem;
