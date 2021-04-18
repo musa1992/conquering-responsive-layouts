@@ -1,0 +1,153 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --highlight: #A59678;
+    --dark-background: #3B4050;
+    --light-background:  rgb(240, 240, 240);
+    --section-padding: 4rem 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #2E323F;
+    padding: 1rem 0;
+}
+
+h1,h2,h3 {
+    margin-top: 0;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: var(--highlight);
+}
+
+product__product p {
+    font-size: 1.125rem;
+}
+
+.btn {
+    background-color: var(--highlight);
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.nav {
+    display: none;
+}
+
+.hero__title {
+    color: #FFF;
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+.hero__title span {
+    color: var(--highlight);
+}
+
+.footer__title {
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: var(--dark-background);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__btn {
+    font-size: 1rem;
+    /* padding: 1em 0;
+    width: 50%; */
+}
+
+.hero__content p {
+    color: rgb(216, 209, 209);
+}
+
+.products {
+    background-color: var(--light-background);
+    padding: var(--section-padding);
+}
+
+.workflow__section--1 {
+    padding: var(--section-padding);
+}
+
+.workflow--work {
+    background-color: var(--dark-background);
+    color: #FFF;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1rem;
+}
+
+.workflow--work h2 {
+    color: #FFF;
+}
+
+.footer {
+    background-color: var(--dark-background);
+    padding: var(--section-padding);
+
+}
+
+.footer h1 {
+    line-height: 1;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.footer__section {
+    color: var(--light-background);
+}
+
+
+
+
