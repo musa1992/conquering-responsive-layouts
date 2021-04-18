@@ -103,3 +103,23 @@ img {
     padding: 3rem 0;
     color: white;
 }
+
+@media (max-width: 375px) {
+    .titles {
+        font-size: 2rem; 
+    }
+}
+
+@media (max-width: 810px) {
+    .row {
+        display: block;
+    }
+    .col {
+
+        width: 100%;
+    }
+    .col + .col {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
