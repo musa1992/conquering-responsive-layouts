@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --brown: #824936;
+}
+
 body {
     margin: 0;
     font-size: 16px;
@@ -67,7 +71,7 @@ img {
     letter-spacing: .4em;
 }
 .hero__section--content h1 {
-    color: #824936;
+    color: var(--brown);
     line-height: 1;
     font-size: 3.75rem;
     font-family: 'Playfair Display', sans-serif;
@@ -80,7 +84,7 @@ img {
 
 .quality__assuarance h2 {
     text-align: center;
-    color: #824936;
+    color: var(--brown);
     
 }
 
@@ -95,7 +99,7 @@ img {
 }
 
 .care {
-    background-color: #824936;
+    background-color: var(--brown);
     padding: 3rem 0;
     color: white;
 }
