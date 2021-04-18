@@ -70,18 +70,30 @@ h1 {
 
 header {
     background: #136c72;
-    padding: .5em 0;
+    padding: 1em 0;
 }
+.logo {
+    margin-right: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /**or use flex-grow: 1; **/
+}
+
 
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    
 }
 
-.nav__item {
-    margin-right: 1em;
+.nav__item + .nav__item {
+    margin-left: 1em;
 }
 
 .nav__link {
