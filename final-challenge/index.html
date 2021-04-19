@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+   
     <title>Final challenge</title>
 </head>
 <body>
     <header>
-        <div class="container row row-mid">
-            <a href="#" class="logo">
+        <div class="row mobile-row">
+            <a href="#" class="logo logo-mobile">
                 <img src="img/logo.svg" alt="logo">
             </a>
-            <nav class="nav">
+            <p class="mobile-nav mobile btn" id="mobile-nav">Menu</p>
+            <nav class="nav mobile-primary-nav" id="nav">
+                <div class="close-menu-btn mobile" id="close-menu">
+                    <p>X</p>
+                </div>
                 <ul class="nav-wrapper">
                     <li class="nav__link">Home</li>
                     <li class="nav__link">About</li>
@@ -125,6 +130,6 @@
             </div>
             </div>
     </footer>
-    
+    <script src="app.js"></script>  
 </body>
 </html>
